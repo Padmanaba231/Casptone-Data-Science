@@ -1,0 +1,10 @@
+streamlit
+paddlepaddle
+paddleocr
+pdf2image
+pillow
+numpy
+google-generativeai
+spacy
+transformers
+torch

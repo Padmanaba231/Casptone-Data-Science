@@ -1,0 +1,92 @@
+{
+  "paradigm": "GT text → search in CV (recall-focused)",
+  "n_samples": 20,
+  "aggregate": {
+    "Skills": {
+      "hybrid_recall": 1.0,
+      "hybrid_found": 55,
+      "bert_recall": 0.7818,
+      "bert_found": 43,
+      "total": 55,
+      "missed": 0
+    },
+    "College Name": {
+      "hybrid_recall": 1.0,
+      "hybrid_found": 39,
+      "bert_recall": 0.9487,
+      "bert_found": 37,
+      "total": 39,
+      "missed": 0
+    },
+    "Graduation Year": {
+      "hybrid_recall": 1.0,
+      "hybrid_found": 32,
+      "bert_recall": 0.7188,
+      "bert_found": 23,
+      "total": 32,
+      "missed": 0
+    },
+    "Designation": {
+      "hybrid_recall": 1.0,
+      "hybrid_found": 48,
+      "bert_recall": 0.8333,
+      "bert_found": 40,
+      "total": 48,
+      "missed": 0
+    },
+    "Companies worked at": {
+      "hybrid_recall": 1.0,
+      "hybrid_found": 53,
+      "bert_recall": 0.8868,
+      "bert_found": 47,
+      "total": 53,
+      "missed": 0
+    },
+    "Email Address": {
+      "hybrid_recall": 1.0,
+      "hybrid_found": 23,
+      "bert_recall": 1.0,
+      "bert_found": 23,
+      "total": 23,
+      "missed": 0
+    },
+    "Location": {
+      "hybrid_recall": 1.0,
+      "hybrid_found": 49,
+      "bert_recall": 0.9388,
+      "bert_found": 46,
+      "total": 49,
+      "missed": 0
+    },
+    "Name": {
+      "hybrid_recall": 1.0,
+      "hybrid_found": 19,
+      "bert_recall": 1.0,
+      "bert_found": 19,
+      "total": 19,
+      "missed": 0
+    },
+    "Degree": {
+      "hybrid_recall": 1.0,
+      "hybrid_found": 30,
+      "bert_recall": 0.8,
+      "bert_found": 24,
+      "total": 30,
+      "missed": 0
+    },
+    "Years of Experience": {
+      "hybrid_recall": 1.0,
+      "hybrid_found": 2,
+      "bert_recall": 0.0,
+      "bert_found": 0,
+      "total": 2,
+      "missed": 0
+    },
+    "__MACRO_AVG__": {
+      "hybrid_recall": 1.0,
+      "hybrid_found": 350,
+      "total": 350,
+      "bert_recall": 0.7908
+    }
+  }
+}

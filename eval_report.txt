@@ -1,0 +1,68 @@
+========================================================================
+  LAPORAN EVALUASI NER: BERT vs HYBRID (Search-Based)
+========================================================================
+  Dataset       : ./dataset/testdata.json
+  Samples       : 20
+
+  PARADIGMA EVALUASI:
+  ─────────────────────────────────────────────────────────────
+  Ground Truth (GT) = label + teks entitas yang ada di CV
+
+  Hybrid: diberikan GT text sebagai 'query dari HRD',
+          apakah sistem menemukan teks itu di CV?
+          → Simulasi alur nyata: HRD input requirement →
+            sistem search apakah ada di CV pelamar
+          → Exact search + normalized + ngram + per-keyword
+
+  BERT:   model prediksi entitas dari teks CV,
+          lalu cek apakah prediksi cocok dengan GT.
+
+  Metric utama: RECALL
+    = (berapa GT instance berhasil ditemukan) / (total GT)
+  ─────────────────────────────────────────────────────────────
+
+  Entity                     Support  Hybrid Recall   Found  BERT Recall    Winner
+  ────────────────────────────────────────────────────────────────────────────────
+  ✓ Name                          19          1.000      19        1.000       Tie
+  ✓ Designation                   48          1.000      48        0.833    Hybrid
+  ✓ Location                      49          1.000      49        0.939    Hybrid
+  ✓ Degree                        30          1.000      30        0.800    Hybrid
+  ✓ College Name                  39          1.000      39        0.949    Hybrid
+  ✓ Graduation Year               32          1.000      32        0.719    Hybrid
+  ✓ Companies worked at           53          1.000      53        0.887    Hybrid
+  ✓ Skills                        55          1.000      55        0.782    Hybrid
+  ✓ Years of Experience            2          1.000       2        0.000    Hybrid
+  ✓ Email Address                 23          1.000      23        1.000       Tie
+  ────────────────────────────────────────────────────────────────────────────────
+  Macro Avg                      350          1.000     350        0.791
+
+========================================================================
+INTERPRETASI:
+──────────────────────────────────────────────────
+
+Recall tinggi (> 0.7)  : sistem berhasil menemukan sebagian besar GT
+Recall sedang (0.4-0.7): ada gap — perlu perbaikan coverage
+Recall rendah (< 0.4)  : sistem sering tidak menemukan entitas GT
+
+KENAPA HYBRID COCOK UNTUK KASUS INI:
+──────────────────────────────────────────────────
+  1. HRD sudah tahu apa yang dicari (requirement spesifik)
+     → Tidak perlu 'menebak' entitas dari teks bebas
+     → Cukup verifikasi keberadaan keyword di CV pelamar
+
+  2. CV memiliki struktur semi-terstruktur
+     → Skill section, education section, experience section
+     → Pattern lebih prediktabel daripada teks bebas
+
+  3. BERT NER lebih cocok untuk:
+     → Teks bebas tanpa struktur
+     → Kasus di mana query TIDAK diketahui sebelumnya
+     → Named Entity Recognition generik
+
+  4. Kekurangan Hybrid:
+     → GT Skills berupa section panjang, bukan keyword tunggal
+       → Diatasi dengan per-keyword parsing
+     → Perlu penanganan khusus untuk variasi penulisan
+       (mis. 'Accenture' vs 'accenture' → sudah ditangani normalize)
+
+========================================================================

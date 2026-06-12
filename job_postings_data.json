@@ -1,0 +1,127 @@
+{
+  "jp_1779983898": {
+    "title": "People Operation Data Analytic Intern",
+    "min_degree": "BACHELOR",
+    "min_degree_level": 3,
+    "min_experience": 0,
+    "required_skills": [
+      "data analysis",
+      "power bi",
+      "tableau",
+      "excel",
+      "canva",
+      "powerpoint",
+      "microsoft excel",
+      "google sheets",
+      "google slides"
+    ],
+    "preferred_location": "Jakarta",
+    "preferred_university": "",
+    "description": "About The Role: \n\nAssists the People Operations team in doing the data analysis related to HR metrics\n\nWhat Will You Do: \n\n Support data collection across various People Operations functions\n Compile and organize People Operations data into structured formats (spreadsheets, databases, or other relevant formats)\n Help visualize People Operations data through graphs, charts, and dashboards to make it easier to interpret, present, update, and showcase important HR data trends and insights\n Support in maintaining updated data to provide real-time insights. \n Collaborate with HR teams to ensure reports meet their needs and objectives\n\nWhat we are looking for: \n\n Last year student or bachelor's in mathematics or statistics \n Basic proficiency in data analysis, including data collection, cleaning, processing, and visualization. \n Familiarity with tools such as Excel and Google Sheets with various formulas (VLOOKUP, Pivot, WHATIF, etc) \n Having skills in Power BI, Tableau, or other data analysis software is a plus point. \n Able to demonstrate data with visual design in a presentation via Google Slides or Canva Basic\n Attention to detail with good interpersonal skills\n Able to Basic understanding of HR processes and metrics, such as employee engagement, performance management, recruitment, and turnover, is a plus point\n Willing to do a 3-month internship with a work-from-office working arrangement in Jakarta\n\nSoft Skill Requirements:\n\n Good communication skill(verbal/non verbal)\n Good presentation skills\n Good analytical skills\n Good team coordination\n Attention to detail \n\nTechnical Skill Requirements:\n\n Microsoft Excel\n Microsoft PowerPoint\n Google spreadsheets\n Google Slides\n Canva",
+    "weights": {
+      "w_skill": 0.7,
+      "w_rel": 0.25,
+      "w_add": 0.05,
+      "w_posisi": 0.6,
+      "w_industri": 0.4,
+      "w_univ": 0.5,
+      "w_loc": 0.5
+    },
+    "threshold": 70
+  },
+  "jp_1780233527": {
+    "title": "AI Engineer",
+    "min_degree": "BACHELOR",
+    "min_degree_level": 3,
+    "min_experience": 0,
+    "required_skills": [
+      "python",
+      "tensorflow",
+      "machine learning",
+      "natural language processing",
+      "data science",
+      "llm",
+      "mlops",
+      "hugging face",
+      "prompt engineering",
+      "api",
+      "deep learning"
+    ],
+    "preferred_location": "Remote",
+    "preferred_university": "",
+    "description": "Company Overview\nVoted #1 EHR by PC Mag, WRS Health delivers a fully integrated cloud based EMR and practice management solutions to its clients. We bring solutions to physicians by providing constant enhancement of our products and services including EHR, practice management, marketing, patient coordination and billing.Job Purpose and Role\nWe are seeking a skilled Artificial Intelligence Engineer to join our team and contribute to enhancing our AI-driven Electronic Health Record (EHR) systems. This role focuses on developing and refining AI prompts to improve natural language processing (NLP) applications for healthcare workflows. Additionally, you will build applications that enhance user interactions with language-based data, ensuring seamless integration and effective utilization of AI capabilities within our healthcare solutions.Key Responsibilities:\nDevelop and refine prompts to ensure optimal performance of Large Language Models (LLMs) in healthcare applications\nExperiment with various prompt strategies and assess their impact on model responses\nCollaborate with developers and domain experts to integrate LLM capabilities into WRS Health’s EHR platforms\nEnsure prompts support accurate, context-aware responses tailored to healthcare-specific needs\nEvaluate and analyze model outputs to identify inconsistencies or areas for improvement\nCollaborate with data scientists to fine-tune models using healthcare-specific datasets\nWork closely with healthcare professionals and cross-functional teams to ensure LLMs align with user needs\nEducate internal teams on prompt engineering best practices and AI applications in healthcare\nDocument prompt engineering methodologies, experiments, and outcomes for future reference\nRegularly report progress, challenges, and insights to stakeholders\n Qualifications:\nBachelor’s or Master’s degree in Computer Science, Data Science, Computational Linguistics, or a related field\nProven experience with prompt engineering and fine-tuning Large Language Models (e.g., OpenAI GPT, Claude, Llama)\nHands-on experience in developing and deploying NLP models, particularly in the healthcare domain, is a plus\nProven experience in developing and deploying machine learning models\nStrong programming skills in Python and other relevant languages\nProficiency in Python and NLP libraries (e.g., Hugging Face, spaCy, NLTK)\nFamiliarity with APIs for interacting with LLMs and cloud platforms\nKnowledge with Lang Chain or other following LLM system building framework such as LlamaIndex, AgentGPT, Flowise, Tensorflow, GPT3 by OpenAI and others\nBackground in Machine Learning Operations (MLOps) and Large Language Model Operations (LLMOps)\nUnderstanding of healthcare terminology and workflows is highly desirable\nStrong problem-solving and analytical abilities\nExcellent communication skills and the ability to work in cross-functional teams\nDetail-oriented with a focus on delivering high-quality solutions\nLocation: Remote\nHours: Available during standard US business hours (9am-5pm EST or 8:30am-4:30pm EST)\nThis job description is intended to describe the general requirements for the position. It is not a complete statement of duties, responsibilities or requirements. Other duties not listed here may be assigned as necessary to ensure proper operations of the department.\nWRS Health is an equal opportunity employer.",
+    "weights": {
+      "w_skill": 0.65,
+      "w_rel": 0.3,
+      "w_add": 0.05,
+      "w_posisi": 0.6,
+      "w_industri": 0.4,
+      "w_univ": 0.5,
+      "w_loc": 0.5
+    },
+    "threshold": 70
+  },
+  "jp_1780493351": {
+    "title": "Full-Stack Software Engineer",
+    "min_degree": "",
+    "min_degree_level": 0,
+    "min_experience": 0,
+    "required_skills": [
+      "java",
+      "javascript",
+      "react",
+      "node.js",
+      "microservices",
+      "api"
+    ],
+    "preferred_location": "Remote",
+    "preferred_university": "",
+    "description": "Position: Senior Full-Stack Software Engineer\n\nType: Contract\n\nCompensation: $30 - $90/hour\n\nLocation: Remote\n\nCommitment: 10-40 hrs/week\n\nRole Responsibilities\n\nLead the end-to-end design, development, and deployment of robust web applications leveraging React and Node.js.\nDefine and implement scalable, maintainable, and secure system architectures.\nMentor, support, and elevate fellow engineers through technical guidance and code reviews.\nDrive and enforce best practices in coding standards, testing, and documentation.\nCollaborate closely with product and design teams to deliver seamless user experiences.\nIdentify and resolve technical challenges, continuously improving application performance and reliability.\n\nRequirements\n\nHave strong relevant experience in JavaScript, with advanced proficiency in React and Node.js ecosystems.\nPossess a deep understanding of RESTful APIs, microservices, and modern web application architecture.\nHave proven experience architecting, building, and deploying scalable full-stack solutions.\nHave strong knowledge of security best practices for both frontend and backend development.\nDemonstrate exceptional written and verbal communication skills, essential for remote collaboration.\n\nApplication Process\n\nEasy Apply on LinkedIn\nCheck email for next steps\nParticipate in resume evaluation & interview stage\n",
+    "weights": {
+      "w_skill": 0.7,
+      "w_rel": 0.25,
+      "w_add": 0.05,
+      "w_posisi": 0.6,
+      "w_industri": 0.4,
+      "w_univ": 0.5,
+      "w_loc": 0.5
+    },
+    "threshold": 75
+  },
+  "jp_1781016168": {
+    "title": "Consulting - Internship - AI & Data Science",
+    "min_degree": "",
+    "min_degree_level": 0,
+    "min_experience": 0,
+    "required_skills": [
+      "python",
+      "data science",
+      "data engineering",
+      "etl",
+      "data lake",
+      "azure",
+      "sql",
+      "oracle",
+      "anomaly detection",
+      "rest api",
+      "excel",
+      "airflow",
+      "salesforce",
+      "compliance",
+      "powerpoint"
+    ],
+    "preferred_location": "Indonesia",
+    "preferred_university": "",
+    "description": "PwC Indonesia is an inclusive and equal-opportunity employer that does not discriminate based on physical disabilities, gender, race, religion, or age. Your application will be treated fairly and assessed solely based on job requirements and competencies.\n\nAt PwC, our people in strategy consulting focus on providing strategic guidance and insights to organisations. They analyse market trends, assess business performance, and develop recommendations to help clients achieve their goals. These individuals work closely with clients to identify opportunities for growth, optimise operations, and enhance overall business performance.\n\nAs a corporate and business strategy consultant at PwC, you will analyse client needs, provide consulting services across different strategic areas, and offer guidance and support to help clients develop and implement effective strategies that align with their business objectives and drive growth.\n\nThe Strategy & Operations Internship at PwC offers undergraduate and graduate students the opportunity to work with industry-leading teams on strategic consulting engagements. Interns will gain firsthand experience and insights into the consulting profession, working closely with our professionals in developing innovative solutions to complex business challenges.\n\nKey Responsibilities:\n\nDesign and build data pipelines from into the AI platform\nEnsure data quality: validation, cleaning, deduplication, anomaly detection\nBuild the data layer for practice management agents (financial data, staffing data, skills data, compliance data)\nImplement data access controls aligned with Role-Based Access Control (RBAC) design — ensure agents only access authorised data\nMonitor data freshness and pipeline health — alert when source data is stale or pipelines fail\nManage data retention and deletion in line with Personal Data Protection Act (PDPA) and firm policies\n\nRequirements:\n\nA final year students and/or fresh graduates from reputable universities, majoring in Engineering, Computer/Technology sciences, and other relevant majors.\nA minimum GPA is 3.00 (out of 4.00) or equivalent\nStrong analytical and quantitative skills, with the ability to think strategically and solve complex problems.\nExcellent written and verbal communication skills.\nDemonstrated ability to work collaboratively within a team environment.\nProficiency in Microsoft Office Suite (e.g., Excel, PowerPoint, Word).\nKnowledge of business process improvement methodologies is a plus.\nEnthusiasm for learning and the ability to adapt quickly in a dynamic environment.\nAdded value if you have strong skills in data science, technology-related, other relevant certifications.\nAble to join full time at our Yogyakarta Office for a minimum period of 3 months.\n\nWhat You’ll Bring:\n\nData engineering experience\nStrong Python + SQL\nExperience with ETL (Extract, Transform, Load) / ELT (Extract, Load, Transform) pipeline design and orchestration (Airflow, Azure Data Factory, or similar)\nExperience with Azure data services (Data Lake, Synapse, Data Factory, Cosmos DB)\nAPI integration — consuming REST API (Representational State Transfer Application Programming Interface) from enterprise systems (Oracle, Salesforce, Workday)\nData quality frameworks and monitoring\nUnderstanding of data governance, access control, and privacy requirements\n\nPrioritized Experience/Skills:\n\nKnowledge of PDPA / data privacy regulations\nExperience with Microsoft Graph API\nFamiliarity with vector databases and embedding pipelines ",
+    "weights": {
+      "w_skill": 0.5,
+      "w_rel": 0.3,
+      "w_add": 0.2,
+      "w_posisi": 0.6,
+      "w_industri": 0.4,
+      "w_univ": 0.5,
+      "w_loc": 0.5
+    },
+    "threshold": 80
+  }
+}
